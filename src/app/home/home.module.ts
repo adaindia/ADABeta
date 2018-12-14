@@ -8,15 +8,17 @@ import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home.component';
 
 import { ComponentsModule } from '../components/components.module';
+import { HomedeskModule } from '../homedesk/homedesk.module';
 @NgModule({
     imports: [
         CommonModule,
         BrowserModule,
         FormsModule,
         RouterModule,
-        ComponentsModule
+        ComponentsModule,
+        HomedeskModule
     ],
-    declarations: [ HomeComponent ],
+    declarations: [ HomeComponent, ],
     exports:[ HomeComponent ],
     providers: []
 })

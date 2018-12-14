@@ -12,7 +12,7 @@
             <ul class="navbar-nav ml-auto">
              
                 <li class="nav-item" *ngIf="!isDocumentation()">
-                    <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/profile.php?id=100028616304162" target="_blank">
+                    <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" [routerLink]="['/products']">        
                         <i class="nc-icon nc-compass-05" aria-hidden="true"></i>&nbsp;Products
                     </a>
                 </li>
@@ -35,7 +35,8 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#"><i class="nc-icon nc-settings-gear-65" aria-hidden="true"></i>&nbsp;Settings</a>
                             </li>
-                        
+                             <li class="nav-item" *ngIf="!isDocumentation()">     
+                <a [routerLink]="['/products']" class="nav-link"><i class="nc-icon nc-book-bookmark"></i> Landing</a></li>
                <!-- <li class="nav-item" *ngIf="isHome()">
                     <a href="http://krishnamalireddy.tk/" target="_blank" class="btn btn-danger btn-round disabled">Upgrade to Pro</a>
                 </li>-->

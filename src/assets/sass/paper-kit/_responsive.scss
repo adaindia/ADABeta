@@ -420,6 +420,7 @@
     }
     .nav-open{
         & .navbar-collapse{
+            display: block;
             @include transform-translate-x(0px);
         }
         & .wrapper{

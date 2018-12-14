@@ -15,6 +15,8 @@ import { FooterComponent } from './shared/footer/footer.component';
 
 import { HomeModule } from './home/home.module';
 import { HomedeskComponent } from './homedesk/homedesk.component';
+import { SocialfooterComponent } from './socialfooter/socialfooter.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { HomedeskComponent } from './homedesk/homedesk.component';
     ProfileComponent,
     NavbarComponent,
     FooterComponent,
-    HomedeskComponent
+    SocialfooterComponent,
+    ProductsComponent,
+   
   ],
   imports: [
     BrowserModule,

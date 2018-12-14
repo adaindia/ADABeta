@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HomedeskComponent } from './homedesk.component';
+import { SocialfooterComponent } from './socialfooter.component';
 
-describe('HomedeskComponent', () => {
-  let component: HomedeskComponent;
-  let fixture: ComponentFixture<HomedeskComponent>;
+describe('SocialfooterComponent', () => {
+  let component: SocialfooterComponent;
+  let fixture: ComponentFixture<SocialfooterComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HomedeskComponent ]
+      declarations: [ SocialfooterComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HomedeskComponent);
+    fixture = TestBed.createComponent(SocialfooterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -23,10 +23,3 @@ describe('HomedeskComponent', () => {
     expect(component).toBeTruthy();
   });
 });
-
-
-
-
-
-
-
